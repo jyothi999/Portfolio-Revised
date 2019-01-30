@@ -1,0 +1,58 @@
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #2d3c49;
+}
+
+.title-logo {
+	border-radius: 50px;
+	margin-top: 2%;
+}
+
+hr {
+	border-top: 3px solid #7d97ad !important;
+}
+
+.banner {
+	height: 300px !important;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.text-muted {
+	color: #00000;
+}
+
+.img-responsive {
+	border-radius: 20px;
+}
+
+p {
+	text-align: justify;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+
+	.bannerBody {
+		display: flex;
+	}
+	.banner {
+		width: 90%;
+	}
+	p {
+		width: 50%;
+		padding-left: 15px;
+	}
+}
+
+
+
